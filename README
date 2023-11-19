@@ -1,0 +1,13 @@
+a = int(input("Input start number: "))
+b = int(input("Input end number: "))
+
+if a < b:
+    i = a
+    while i <= b + 3:
+        print(i)
+        i += 3
+else:
+    i = a
+    while i >= b - 3:
+        print(i)
+        i -= 3        
